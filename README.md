@@ -4,6 +4,7 @@
 
 ---
 
+<a id="windows-11"></a>
 ### 🪟 Windows 11
 Automate your Windows 11 setup with a clean, fast, fully scriptable workflow.
 This repo provides ready-to-run commands for installing apps, configuring the system, and running remote scripts.
@@ -24,6 +25,7 @@ Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/dtvab
 
 ---
 
+<a id="android-debloat-helper"></a>
 ### 🤖 Android Debloat Helper
 Streamline your Android device by removing bloatware safely and efficiently.
 This section provides quick commands to pair your device, enable debugging, and run the debloat helper script remotely.
