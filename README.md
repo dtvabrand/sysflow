@@ -1,6 +1,7 @@
-### 🪟 [Windows 11](#windows-11)
-### 🤖 [Android Debloat Helper](#android-debloat-helper)
-### ⚖️ [License & Terms](#license--terms)
+## 📑 Overview
+- 🪟 [Windows 11](#windows-11)
+- 🤖 [Android Debloat Helper](#android-debloat-helper)
+- ⚖️ [License & Terms](#license--terms)
 
 ---
 
