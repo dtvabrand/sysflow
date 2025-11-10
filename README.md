@@ -24,8 +24,6 @@ Launch Winflow remotely:
 Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/dtvabrand/sysflow/refs/heads/main/winflow.py" | ForEach-Object { $_.Content } | py -3 -
 ```
 
----
-
 <div>
   <img src="assets/winflow.png" width="500"/>
 </div>
