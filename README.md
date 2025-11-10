@@ -22,6 +22,8 @@ Launch Winflow remotely:
 Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/dtvabrand/sysflow/refs/heads/main/winflow.py" | ForEach-Object { $_.Content } | py -3 -
 ```
 
+---
+
 ### 🤖 Android Debloat Helper
 Streamline your Android device by removing bloatware safely and efficiently.
 This section provides quick commands to pair your device, enable debugging, and run the debloat helper script remotely.
@@ -64,6 +66,8 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/cankurttekin/Android-D
 <div>
   <img src="assets/android_debloat_helper.png" width="400"/>
 </div>
+
+---
 
 ### License & Terms
 - MIT license for all code in this repository.
