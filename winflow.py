@@ -128,7 +128,7 @@ try:
         print("RedNotebook installed and diary linked to OneDrive successfully!" if rc == 0 else "Symlink failed — ensure OneDrive is signed in and the .rednotebook folder exists, then run again.")
     
     if 'Scanner Windows' in answers['tasks']:
-        os.system('winget install --id 9WZDNCRFJ3PV --source msstore --accept-source-agreements --accept-package-agreements')
+        os.system('winget install --id 9WZDNCRFJ3PV --source msstore --silent --accept-source-agreements --accept-package-agreements')
 
     if 'Snipping Tool' in answers['tasks']:
         os.system('winget install --id 9MZ95KL8MR0L --source msstore --silent --accept-source-agreements --accept-package-agreements')
@@ -147,6 +147,6 @@ try:
     
     if 'WinRAR' in answers['tasks']:
         os.system('winget install RARLab.WinRAR --scope machine')
-        print(r"If you own a WinRAR license, place your personal 'rarreg.key' in C:\Program Files\WinRAR (not included)")
+        print(r"If you own a WinRAR license, place your personal 'rarreg.key' in C:\Program Files\WinRAR")
 
 except KeyboardInterrupt: print("\nCancelled by user."); sys.exit(130)
