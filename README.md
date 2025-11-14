@@ -21,7 +21,7 @@ python -m pip install --upgrade pip inquirer
 ```
 - Launch Winflow remotely:
 ```
-Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/dtvabrand/sysflow/refs/heads/main/winflow.py" | ForEach-Object { $_.Content } | py -3 -
+Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/dtvabrand/sys/refs/heads/main/win11.py" | ForEach-Object { $_.Content } | py -3 -
 ```
 
 <div>
