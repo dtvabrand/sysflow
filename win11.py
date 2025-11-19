@@ -30,7 +30,7 @@ try:
         
     if 'Bloatware' in answers['tasks']:
         bloatware = [
-            "Microsoft.GamingApp","Microsoft.XboxApp","Microsoft.Xbox.TCUI","Microsoft.XboxGameOverlay",
+            "Microsoft.GamingApp","Microsoft.XboxApp","Microsoft.Xbox.TCUI","Microsoft.XboxGamingOverlay",
             "Microsoft.XboxGameOverlay","Microsoft.XboxSpeechToTextOverlay","Microsoft.WindowsTerminal",
             "Clipchamp.Clipchamp","Microsoft.PowerAutomateDesktop","DolbyLaboratories.DolbyAccess",
             "Microsoft.OutlookForWindows","Microsoft.RemoteDesktop","Microsoft.ZuneVideo","Microsoft.WindowsPhone",
@@ -150,4 +150,5 @@ try:
         print(r"If you own a WinRAR license, place your personal 'rarreg.key' in C:\Program Files\WinRAR")
 
 except KeyboardInterrupt: print("\nCancelled by user."); sys.exit(130)
+
 
